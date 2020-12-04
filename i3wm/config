@@ -32,7 +32,7 @@ exec --no-startup-id nm-applet
 exec google-chrome
 assign [class="Google-chrome"] $ws1
 
-exec pycharm-community
+exec pycharm-professional
 assign [class="jetbrains-pycharm"] $ws2
 
 exec slack
@@ -40,8 +40,6 @@ assign [class="Slack"] $ws3
 
 exec discord
 assign [class="discord"] $ws3
-
-assign [class="spotify"] $ws5
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -223,3 +221,6 @@ exec i3-config-wizard
 
 # Focus
 focus_follows_mouse no
+
+# Make the keyboard layout switchable
+exec "setxkbmap -option 'grp:win_space_toggle' -layout br,us"
