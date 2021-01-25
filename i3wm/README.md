@@ -3,7 +3,7 @@
 ## Usage
 Copy these dotfiles to the correct folders using the following commands:
 ```
-cp config /etc/i3/config
+cp config ~/.config/i3/config
 cp .i3status.conf ~/.i3status.conf
 cp .Xresources ~/.Xresources
 ```
