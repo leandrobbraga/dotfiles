@@ -9,3 +9,7 @@ cp .Xresources ~/.Xresources
 ```
 
 The `.Xresources` file is only needed in HiDPI displays, it will scale up everything 2x.
+
+## Observations
+It seems that the proprietary NVIDIA driver does not work well with monitor scaling. Install the open source driver if 
+you intend to use this I3WM configuration with dual monitor with different scaling.
