@@ -32,8 +32,8 @@ exec --no-startup-id nm-applet
 exec google-chrome
 assign [class="Google-chrome"] $ws1
 
-exec pycharm-professional
-assign [class="jetbrains-pycharm"] $ws2
+exec code
+assign [class="Code"] $ws2
 
 exec slack
 assign [class="Slack"] $ws3
